@@ -1,0 +1,28 @@
+#root {
+  max-width: 1280px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo{
+  margin-bottom: 15px;
+  padding: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #ffffff;
+}
+
+.relogio{
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 4rem;
+  background-color: rgba(244, 243, 243, 0.833);
+  border: 1px solid #9b9a9abf;
+  border-radius: 50px;
+}
+
+
