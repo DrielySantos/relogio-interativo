@@ -1,12 +1,48 @@
-# React + Vite
+# 🕒 Relógio Interativo com React
+![Capa do projeto Relógio Interativo](./public/images/Relógio-Interativo-capa.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto simples de um relógio digital interativo desenvolvido com React, com o objetivo de praticar e compreender na prática os hooks `useState` e `useEffect`.
 
-Currently, two official plugins are available:
+# 💡 Objetivo do Projeto
+O principal objetivo deste projeto foi aprender como funcionam os hooks useState e useEffect no React, entendendo como controlar o estado e lidar com efeitos colaterais como o tempo passando.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 🛠️ Tecnologias Utilizadas
+- `React (com Vite)`
+- `JavaScript (ES6+)`
+- `CSS`
 
-## Expanding the ESLint configuration
+# ⚙️ Funcionalidades
+- Exibe o horário atual em tempo real.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Atualiza automaticamente os segundos a cada segundo.
+
+- Estrutura simples e de fácil entendimento para iniciantes.
+
+- A imagem de fundo da página muda de acordo com o horário: manhã, tarde ou  noite.
+
+## 📚 O que aprendi
+- Como usar o useState para armazenar o horário atual.
+
+- Como utilizar o useEffect para criar um intervalo de tempo.
+
+- A importância de limpar os efeitos (`clearInterval`) para evitar vazamentos de memória.
+
+- Organização de componentes React em um projeto simples.
+
+# 🖼️ Preview
+![Captura de tela do projeto](./public/images/prtsc.png)
+
+## 🚀 Como executar
+Clone o repositório e instale as dependências:
+
+```
+git clone https://github.com/DrielySantos/relogio-interativo.git
+cd relogio-interativo
+npm install
+npm run dev
+```
+
+* Obs: Este projeto foi desenvolvido como parte do meu processo de aprendizagem em desenvolvimento front-end. 💻✨
+
+# Autor
+[<img loading="lazy" src="https://avatars.githubusercontent.com/u/110002676?v=4" width=115><br><sub>Driely Santos</sub>](https://github.com/DrielySantos) 
